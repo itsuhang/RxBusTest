@@ -11,6 +11,8 @@ public class ThreeActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_three);
 		Button button = (Button) findViewById(R.id.button);
-		button.setOnClickListener(view -> RxBusHelper.post("这是发送的消息"));
+		button.setOnClickListener(view -> {
+
+		});
 	}
 }
